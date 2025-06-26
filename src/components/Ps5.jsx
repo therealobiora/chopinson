@@ -16,7 +16,7 @@ const Ps5 = () => {
       id="ps5"
       className="py-8 sm:py-10 md:py-12 bg-white"
     >
-      <div className="container mx-auto max-w-[95%] h-[45vh] md:h-[50vh] bg-[#f5f5f5] rounded-md justify-center px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-6 sm:gap-8">
+      <div className="container mx-auto max-w-[95%] h-[50vh] md:h-[50vh] bg-[#f5f5f5] rounded-md justify-center px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-6 sm:gap-8">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
