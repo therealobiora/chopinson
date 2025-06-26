@@ -19,7 +19,24 @@ const montserrat = Montserrat({
 
 export const metadata = {
   title: "Chopinson Bar & Events",
-  description: "Bar, restaurant, events, and more",
+  description:
+    "Experience top-tier dining, events, catering, and more in a vibrant atmosphere.",
+  keywords: "Chopinson, bar, restaurant, events, catering, rentals, VIP",
+  openGraph: {
+    title: "Chopinson Bar & Events",
+    description: "Dine, host events, and vibe — all in one place.",
+    url: "https://chopinsonkitchen.com",
+    siteName: "Chopinson",
+    images: [
+      {
+        url: "/images/cbarlogo.png",
+        width: 1200,
+        height: 630,
+        alt: "Chopinson Restaurant and Events",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {

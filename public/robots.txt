@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://chopinsonkitchen.com
+
+# Sitemaps
+Sitemap: https://chopinsonkitchen.com/sitemap.xml
